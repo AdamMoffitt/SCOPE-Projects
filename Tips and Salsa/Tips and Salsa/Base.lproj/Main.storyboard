@@ -79,7 +79,11 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tips and Salsa" id="ctK-56-ymA">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" id="WHt-yd-VRf"/>
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="WHt-yd-VRf">
+                            <connections>
+                                <segue destination="eqx-qX-v3Y" kind="show" id="vcz-me-Rik"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -109,7 +113,15 @@
                     <view key="view" contentMode="scaleToFill" id="cjm-Uh-oAg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="So many settings here!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bw-jv-rPc">
+                                <rect key="frame" x="92" y="135" width="231" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
