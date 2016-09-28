@@ -18,7 +18,7 @@ The app contains the following functionality:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/f6FnIem' title='Tipper Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[img]http://i.imgur.com/f6FnIem.gif[/img]' title='Tipper Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
